@@ -1,5 +1,22 @@
-h1 {
+.main-header {
   font-family: "Comforter", cursive;
+  font-size: 90px;
+  color: violet;
+  text-align: center;
+  padding-top: 40px;
+}
+.sub-header {
+  font-family: "Inconsolata", monospace;
   font-size: 64px;
-  color: red;
+  color: black;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+}
+.thumbnail {
+  width: 200px;
+  height: 200px;
 }
