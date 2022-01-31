@@ -48,6 +48,10 @@ a {
 .gallery-cards {
   padding: 20px;
 }
+.footer {
+  color: black;
+  font-size: smaller;
+}
 
 @media (max-width: 567px) {
   h1 {
