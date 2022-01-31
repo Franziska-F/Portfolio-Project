@@ -26,26 +26,88 @@
     <title>My art</title>
   </head>
   <body>
-    <h1 class="main-header">Hi, artsy people!</h1>
-    <h2 class="sub-header">This homepage is about things I made</h2>
-    <div class="gallery">
-      <img
-        src="/img/Tagpfauenauge.JPG"
-        class="img-fluid img-thumbnail thumbnail"
-        alt="watercolor picture of a peacock butterfly"
-      />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">My art</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/watercolor.html">Watercolor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/drawings.html">Drawings</a>
+            </li>
 
-      <img
-        src="/img/Portrait.JPG"
-        class="img-fluid img-thumbnail thumbnail"
-        alt="portrait of woman"
-      />
-
-      <img
-        src="/img/paperstars.JPG"
-        class="img-fluid img-thumbnail thumbnail"
-        alt="colorful paper and paperstars"
-      />
+            <li class="nav-item">
+              <a class="nav-link" href="/miscellaneus.html">Miscellaneus</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <div class="main">
+      <h1 class="main-header">Hi, artsy people!</h1>
+      <h2 class="sub-header">This homepage is about things I made</h2>
+      <div class="gallery">
+        <div class="contrainer">
+          <div class="row justify-content-envenly>">
+            <div class="col-md-4">
+              <a href="/watercolor.html"
+                ><div>
+                  <img
+                    src="/img/Tagpfauenauge.JPG"
+                    class="img-fluid thumbnail"
+                    alt="watercolor picture of a peacock butterfly"
+                  />
+                  <p class="main-links">Watercolor</p>
+                </div></a
+              >
+            </div>
+            <div class="col-md-4">
+              <a href="/drawings.html"
+                ><div>
+                  <img
+                    src="/img/Portrait.JPG"
+                    class="img-fluid thumbnail"
+                    alt="portrait of woman"
+                  />
+                  <p class="main-links">Drawings</p>
+                </div></a
+              >
+            </div>
+            <div class="col-md-4">
+              <a href="/miscellaneus.html"
+                ><div>
+                  <img
+                    src="/img/colors.jpeg"
+                    class="img-fluid thumbnail"
+                    alt="colorful paper and paperstars"
+                  />
+                  <p class="main-links">Miscellaneus</p>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

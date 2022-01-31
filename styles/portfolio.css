@@ -1,22 +1,45 @@
+.main {
+  margin: 0 50px;
+  background-color: whitesmoke;
+}
 .main-header {
   font-family: "Comforter", cursive;
   font-size: 90px;
-  color: violet;
+  color: hotpink;
   text-align: center;
-  padding-top: 40px;
+  padding: 40px;
 }
 .sub-header {
   font-family: "Inconsolata", monospace;
   font-size: 64px;
   color: black;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .gallery {
-  display: flex;
-  justify-content: space-evenly;
+  padding-left: 40px;
+  padding-right: 40px;
 }
+
 .thumbnail {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: rgb(222, 218, 218) 5px 5px 5px;
+}
+
+.main-links {
+  font-family: "Comforter", cursive;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  padding-top: 5px;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+}
+.gallery-cards {
+  padding: 20px;
 }
