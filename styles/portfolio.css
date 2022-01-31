@@ -52,7 +52,7 @@ a {
 @media (max-width: 567px) {
   h1 {
     font-size: 75px !important;
-    padding: 5px !important;
+    padding: 25px 5px !important;
   }
 
   h2 {
